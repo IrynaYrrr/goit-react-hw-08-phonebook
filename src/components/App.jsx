@@ -3,8 +3,8 @@ import { ContactForm } from './ContactForm/ContactForm';
 import { Filter } from './Filter/Filter';
 import { ContactList } from './ContactList/ContactList';
 import { useDispatch, useSelector } from 'react-redux';
-import { selectError, selectIsLoading } from 'store/redux/selectors';
-import { fetchContacts } from 'store/redux/operations';
+import { selectError, selectIsLoading } from 'redux/selectors';
+import { fetchContacts } from 'redux/operations';
 
 const headersStyles = {
   margin: 8,
