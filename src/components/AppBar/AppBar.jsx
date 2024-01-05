@@ -1,5 +1,5 @@
 import { Navigation } from '../Navigation/Navigation';
-import { UserMenu } from '../UserMenu/UserMenu';
+import { UserMenu } from 'components/userMenu/UserMenu';
 import { AuthNav } from '../AuthNav/AuthNav';
 import { useAuth } from 'hooks';
 import css from './AppBar.module.css';
