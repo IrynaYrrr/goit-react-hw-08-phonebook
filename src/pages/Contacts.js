@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 import { fetchContacts } from 'redux/contacts/operations';
 import { selectIsLoading } from 'redux/contacts/selectors';
 import { ContactList } from 'components/ContactList/ContactList';
-// import { ContactEditor } from 'components/TaskEditor/TaskEditor';
+import { ContactEditor } from 'components/ContactEditor/ContactEditor';
 
 
 export default function Contacts() {
@@ -20,7 +20,7 @@ export default function Contacts() {
       <Helmet>
         <title>Your contacts</title>
       </Helmet>
-      {/* <ContactEditor /> */}
+      <ContactEditor />
       <div>{isLoading && 'Request in progress...'}</div>
       <ContactList />
     </>

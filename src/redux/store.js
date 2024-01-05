@@ -1,13 +1,3 @@
-
-
-
-// export const store = configureStore({
-//   reducer:{
-//     contacts: contactReducer,
-//     filter: filterReducer,
-//   }
-// });
-
 import { configureStore } from '@reduxjs/toolkit';
 import {
   persistStore,
