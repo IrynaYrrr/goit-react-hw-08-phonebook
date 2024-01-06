@@ -1,5 +1,5 @@
 .form {
-  height: 20vh;
+  height: 35vh;
   width: 95%;
   display: flex;
   gap: 20px;
@@ -26,7 +26,7 @@
 }
 
 .buttonAdd {
-  background-color: #c568ff;
+  background-color: orange;
   border: none;
   color: white;
   padding: 15px 32px;

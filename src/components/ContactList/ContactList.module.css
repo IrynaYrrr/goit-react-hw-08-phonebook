@@ -1,26 +1,41 @@
+.contactsWrap {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 .contactItem {
   display: flex;
-  flex-direction: row;
-  gap: 10px;
   justify-content: space-between;
-  font-size: 20px;
   align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.contactItem:last-child {
+  border-bottom: none;
+}
+
+.contactItem div:first-child {
+  font-weight: bold;
 }
 
 .btnDelete {
-  background-color: #ff0000;
-  border: none;
+  background-color: #ff5e5e;
   color: white;
-  padding: 3px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 3px;
-  font-size: 15px;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
 
-.contactsWrap {
-  margin-left: 20%;
-  margin-right: 20%;
+.btnDelete:hover {
+  background-color: #ff3b3b;
 }
